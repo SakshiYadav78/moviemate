@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/developers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="Developer"
+            android:textColor="@color/colorhead"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/line6"
+            android:layout_width="160dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="301dp"
+            android:background="@color/colorhead"
+            app:layout_constraintBottom_toBottomOf="@+id/harryImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/developers"
+            app:layout_constraintVertical_bias="1.0" />
+
+        //Sakshi
+
+        <ImageView
+            android:id="@+id/SakshiImage"
+            android:layout_width="125dp"
+            android:layout_height="134dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="136dp"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sakshi" />
+
+
+        <TextView
+            android:id="@+id/SakshiName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="136dp"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="SAKSHI YADAV"
+            android:textColor="@color/colorhead"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/SakshiImage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/SakshiBirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:paddingStart="4dp"
+
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="7th August 2000"
+            android:textColor="@color/colorhead"
+            app:layout_constraintStart_toEndOf="@+id/SakshiImage"
+            app:layout_constraintTop_toBottomOf="@+id/SakshiName" />
+
+        <TextView
+            android:id="@+id/SakshiPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:paddingStart="4dp"
+
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="Lucknow, Uttar Pradesh"
+            android:textColor="@color/colorhead"
+            app:layout_constraintStart_toEndOf="@+id/SakshiImage"
+            app:layout_constraintTop_toBottomOf="@+id/SakshiBirth" />
+
+        <ImageView
+            android:id="@+id/facebook1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="8dp"
+            android:onClick="sakshiFacebookClick"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            app:layout_constraintStart_toEndOf="@+id/SakshiImage"
+            app:layout_constraintTop_toBottomOf="@+id/SakshiPlace"
+            app:srcCompat="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/gmail1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="12dp"
+            android:onClick="sakshiGmailClick"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            app:layout_constraintStart_toEndOf="@+id/SakshiImage"
+            app:layout_constraintTop_toBottomOf="@+id/SakshiPlace"
+            app:srcCompat="@drawable/gmail" />
+
+        <ImageView
+            android:id="@+id/insta1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="15dp"
+            android:onClick="sakshiInstaClick"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            app:layout_constraintStart_toEndOf="@+id/SakshiImage"
+            app:layout_constraintTop_toBottomOf="@+id/SakshiPlace"
+            app:srcCompat="@drawable/insta" />
+
+
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="Forward-thinking developers offering near about one month of experience building, integrating, testing, and supporting Android applications for mobile and tablet devices on the Android platform seeks a position in SOFTWARE INCUBATORS of AKGEC."
+            android:textColor="@color/colorhead"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/facebook1" />
+
+        <TextView
+            android:id="@+id/corematter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:gravity="center"
+            android:paddingStart="4dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="4dp"
+            android:text="Created 1 fully functional applications for Android devices.Known for writing efficient, maintainable, and reusable code.Proficient in design, data structures, problem-solving, and debugging.Expert in the interaction between various devices and versions of Android."
+            android:textColor="@color/colorhead"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/core2" />
+
+
+        <TextView
+            android:id="@+id/core2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="CORE QUALIFICATIONS"
+            android:textColor="@color/colorhead"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.536"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/intro" />
+
+
+        <TextView
+            android:id="@+id/education"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:textStyle="bold"
+            android:text="Feel Free To Contact Us"
+            android:textColor="@color/colorhead"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/corematter" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

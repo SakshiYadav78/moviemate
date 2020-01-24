@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mmhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="64dp"
+            android:gravity="fill_horizontal"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="MOVIE MATE:THE ULTIMATE DESTINATION FOR MOVIE AND TV SHOWS RATINGS"
+            android:textColor="@color/colorhead"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/mmMatter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:gravity="fill_horizontal"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+
+
+            android:paddingEnd="4dp"
+            android:text="If you would like to experience the best of online ratings of movies and TV shows for men, women and kids all over the globe, you are at the right place.\nMovie Mate is the ultimate destination for ratings and review of movies TV shows , being host to a wide array of merchandise including movies and TV shows and more.\nIt is time to redefine your choice statement with our treasure-trove of trendy stock.\nOur online application brings you the latest in romantic, thriller, action ,comedy story line ratings in the house.\nYou can search at Movie Mate from the comfort of your home and get your ratings in seconds."
+            android:textColor="@color/colorhead"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mmhead" />
+
+        <TextView
+            android:id="@+id/licencehead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="24dp"
+            android:gravity="fill_horizontal"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="VERSION AND EFFECTIVE DATE OF THE PRIVACY POLICY"
+            android:textColor="@color/colorhead"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mmMatter" />
+
+        <TextView
+            android:id="@+id/licenceMatter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:gravity="fill_horizontal"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+
+            android:paddingEnd="4dp"
+            android:text="Effective Date: [September 29, 2019]
+
+Date of latest update and issuance: [September 29, 2019] (replacing the former version)"
+            android:textColor="@color/colorhead"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/licencehead" />
+
+        <TextView
+            android:id="@+id/gdprhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="24dp"
+            android:gravity="fill_horizontal"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="INFORMATION REGARDING YOUR DATA PROTECTION RIGHTS UNDER GENERAL DATA PROTECTION REGULATIONS (GDPR)"
+            android:textColor="@color/colorhead"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/licenceMatter" />
+
+        <TextView
+            android:id="@+id/gdprMatter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:gravity="fill_horizontal"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="We need to perform a contract with you, such as when you create a Policy with us\nYou have given us permission to do so\nThe processing is in our legitimate interests and it's not overridden by your rights\nFor payment processing purposes\nTo comply with the law"
+            android:textColor="@color/colorhead"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gdprhead" />
+
+        <TextView
+            android:id="@+id/privacyhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="fill_horizontal"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="MOVIE MATE PRIVACY STATEMENT"
+            android:textColor="@color/colorhead"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gdprMatter" />
+
+
+        <TextView
+            android:id="@+id/privacyMatter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:gravity="fill_horizontal"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="Thanks for entrusting Movie Mate with your interest,trust,reliability and your personal information. Holding on to your interest and information is a serious responsibility, and we want you to know how we're handling it well."
+            android:textColor="@color/colorhead"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/privacyhead" />
+        <TextView
+            android:id="@+id/text_view_follow_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#191919"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Follow And Contact Movie Mate On:"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/privacyMatter" />
+
+        <ImageView
+            android:id="@+id/facebook3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginEnd="50dp"
+
+            android:onClick="moviemateFacebookClick"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            app:layout_constraintEnd_toStartOf="@+id/insta3"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_follow_us"
+            app:srcCompat="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/insta3"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+
+            android:onClick="moviemateInstaClick"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_follow_us"
+            app:srcCompat="@drawable/insta" />
+
+        <ImageView
+            android:id="@+id/gmail3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="6dp"
+            android:onClick="sakshiGmailClick"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            app:layout_constraintStart_toEndOf="@+id/insta3"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_follow_us"
+            app:srcCompat="@drawable/gmail" />
+
+        <TextView
+            android:id="@+id/text_view_followusblank"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+
+            android:layout_marginTop="15dp"
+
+            android:background="#191919"
+
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/insta3" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
